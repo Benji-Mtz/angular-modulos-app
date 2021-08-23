@@ -12,7 +12,8 @@ import { ListadoComponent } from './listado/listado.component';
     ],
     // Los modulos contenidos para usar en otro lugar de la app
     exports: [
-        ListadoComponent
+        ListadoComponent,
+        // Heroecomponent
     ],
     // importaciones de modulos en comun para el funcionamiento de directivas tipo ngfor, ngif etc
     imports: [
