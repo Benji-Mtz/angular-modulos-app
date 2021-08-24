@@ -19,7 +19,9 @@ export class DbzService {
         return [...this._personajes];
     }
 
-    constructor() { }
+    constructor() { 
+      // console.log("Servicio Inicializado!")
+    }
 
     // Funcion para agregar personajes en agregar
     agregarPersonaje( dataPersonaje: Personaje) {

@@ -10,7 +10,7 @@ export class AgregarComponent {
 
   @Input() nuevo: Personaje = {
     nombre: '',
-    poder: 0
+    poder: 1
   }
 
   constructor( private dbzService: DbzService) {}
@@ -28,7 +28,7 @@ export class AgregarComponent {
 
     this.nuevo = {
       nombre: '',
-      poder: 0
+      poder: 1000
     }
   }
 
